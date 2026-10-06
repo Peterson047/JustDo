@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo.svg" alt="JustDo" width="400" />
+</p>
+
 # JustDo! ⚡
 
 > **Behavioral skill and agent instructions for AI coding assistants.**  
