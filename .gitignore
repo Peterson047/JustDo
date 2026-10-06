@@ -1,0 +1,13 @@
+# Universal ignore patterns
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+*.bak
+.vscode/
+.idea/
+
+# Local agent and specification directories
+.agents/
+.specify/
+specs/
