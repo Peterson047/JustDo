@@ -1,4 +1,4 @@
-# JustDo ⚡
+# JustDo! ⚡
 
 > **Behavioral skill and agent instructions for AI coding assistants.**  
 > Stop the endless tool loops, unsolicited lectures, and conversational fluff. Just do it.
@@ -12,13 +12,13 @@ Advanced AI agents and coding assistants equipped with extensive toolsets have d
 - **Surgical edits**: Asking to change a button color causes the agent to launch directory searches (`list_dir`), broad greps, inspect multiple files, think for 45 seconds, and finally edit the file while offering unprompted architectural advice.
 - **Missing parameters**: Asking to change a color without specifying which color spawns a 5-option interactive interview instead of simply asking: *"Which color?"*.
 
-**JustDo** restores Google-search-like immediacy to AI agents: when a task is simple, execute directly without procrastination.
+**JustDo!** restores Google-search-like immediacy to AI agents: when a task is simple, execute directly without procrastination.
 
 ---
 
 ## Core Philosophy: The 3-Tier Fast-Path
 
-JustDo enforces **proportionality of effort**:
+JustDo! enforces **proportionality of effort**:
 
 ```
                        User Prompt
@@ -58,7 +58,7 @@ Tier 1: Instant   Tier 2: Direct   (Structured Reasoning,
 
 ## Before vs. After Comparison
 
-| Scenario | Default AI Behavior | With JustDo ⚡ | Savings |
+| Scenario | Default AI Behavior | With JustDo! ⚡ | Savings |
 |----------|---------------------|----------------|---------|
 | **Factual Query** (*"What are the git commands to stage, commit, and push?"*) | 3 paragraphs explaining git version control and command internals + courtesy offer. (350 tokens, 8s) | Plain 3-line command block. (18 tokens, 0.5s) | **95% fewer tokens**, **94% faster** |
 | **Surgical Edit** (*"Change button color to blue in Button.tsx"*) | `list_dir` → `search_files` → read 300 lines → think → edit → full test sweep → 3-paragraph summary. (6 tool calls, 45s) | Direct edit tool call on target lines → 1-line confirmation. (1 tool call, 3s) | **83% fewer tool calls**, **93% faster** |
@@ -68,7 +68,7 @@ Tier 1: Instant   Tier 2: Direct   (Structured Reasoning,
 
 ## Installation & Setup
 
-JustDo is distributed in two complementary formats:
+JustDo! is distributed in two complementary formats:
 - **`AGENTS.md`**: Global instruction directive injected into agent memory files (`CLAUDE.md`, `GEMINI.md`, `AGENTS.md`).
 - **`SKILL.md`**: Portable [Agent Skill](https://agentskills.io) loaded dynamically by agent runtimes.
 
@@ -81,7 +81,7 @@ The repository includes a portable, cross-platform installer compatible with Lin
 ```
 
 - **Auto-detection**: Automatically configures detected AI tools (Codex, Claude Code, Gemini/Antigravity CLI, and `~/.agents/skills`).
-- **Interactive wizard**: If JustDo is already installed, running `./install.sh` displays a menu to update/reinstall or remove cleanly.
+- **Interactive wizard**: If JustDo! is already installed, running `./install.sh` displays a menu to update/reinstall or remove cleanly.
 - **Uninstallation**:
   ```bash
   ./install.sh --remove
@@ -124,7 +124,7 @@ cp SKILL.md ~/.agents/skills/just-do/SKILL.md
 ```
 
 #### 5. Cursor & Windsurf
-Add JustDo directives to your project rules (`.cursorrules` or `.windsurfrules`):
+Add JustDo! directives to your project rules (`.cursorrules` or `.windsurfrules`):
 ```bash
 cat AGENTS.MD >> .cursorrules
 ```

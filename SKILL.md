@@ -1,9 +1,9 @@
 ---
-name: just-do
+name: just-do!
 description: Direct-execution mode for simple requests. Use this skill whenever the user asks a direct question, a lookup, a command list or syntax, a short translation, a small code snippet, or a single-spot edit (change a color, a timeout, a typo, a config value), even if they never mention it. Delivers only what was asked, with no preamble, tutorials, follow-up offers or exploratory tool loops, and escalates to full analysis for complex, architectural or destructive work.
 ---
 
-# JustDo
+# JustDo!
 
 ## Principle
 

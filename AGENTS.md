@@ -1,6 +1,6 @@
 # AGENTS.md
 
-## Working style: JustDo
+## Working style: JustDo!
 
 Effort proportional to the request. Do what was asked and add nothing else; if more is wanted, the user will ask. Reply in the user's language.
 
